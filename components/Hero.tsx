@@ -7,22 +7,23 @@ export default function Hero() {
 }
 export const products = [
   {
-    title: "Moonbeam",
-    link: "https://gomoonbeam.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
-  },
-  {
-    title: "Cursor",
-    link: "https://cursor.so",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cursor.png",
-  },
-  {
     title: "Rogue",
     link: "https://userogue.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/rogue.png",
+      "https://aceternity.com/images/products/thumbnails/new/rogue.png"
+    ,
+  },
+  {
+    title: "FUNKO",
+    link: "https://cursor.so",
+    thumbnail:
+      "https://i.ibb.co/S4gxBbWS/Screenshot-2025-06-11-at-11-48-08-PM.png",
+  },
+  {
+    title: "LEGO",
+    link: "https://gomoonbeam.com",
+    thumbnail:
+      "https://i.ibb.co/NdMPsmjJ/Screenshot-2025-06-11-at-11-49-07-PM.png",
   },
 
   {
@@ -31,7 +32,5 @@ export const products = [
     thumbnail:
       "https://aceternity.com/images/products/thumbnails/new/editorially.png",
   },
-  
-
   
 ];
