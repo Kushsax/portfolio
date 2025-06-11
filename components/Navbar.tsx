@@ -6,8 +6,8 @@ import { cn } from "@/lib/utils";
 
 export default function NavbarDemo() {
   return (
-    <div className="relative w-full flex items-center justify-center pt- ">
-      <Navbar className="top-8" />
+    <div>
+      <Navbar className="top-8"/>
     </div>
   );
 }
@@ -26,15 +26,15 @@ function Navbar({ className }: { className?: string }) {
         <MenuItem setActive={setActive} active={active} item="Projects">
           <div className="  text-sm grid grid-cols-2 gap-10 p-4">
             <ProductItem
-              title="LEGO Redesigned"
-              href="https://algochurn.com"
-              src="https://assets.aceternity.com/demos/algochurn.webp"
+              title="LEGO"
+              href="https://i.ibb.co/NdMPsmjJ/Screenshot-2025-06-11-at-11-49-07-PM.png"
+              src="https://i.ibb.co/NdMPsmjJ/Screenshot-2025-06-11-at-11-49-07-PM.png"
               description="A reimagined UI for popular gamemaker LEGO shortlisted top 8 in Mock up 2025"
             />
             <ProductItem
               title="FUNKO"
-              href="https://tailwindmasterkit.com"
-              src="https://assets.aceternity.com/demos/tailwindmasterkit.webp"
+              href="https://i.ibb.co/S4gxBbWS/Screenshot-2025-06-11-at-11-48-08-PM.png"
+              src="https://i.ibb.co/S4gxBbWS/Screenshot-2025-06-11-at-11-48-08-PM.png"
               description="Collection of short games like Hangman and Tenzies"
             />
             <ProductItem

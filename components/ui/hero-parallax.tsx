@@ -110,6 +110,7 @@ export const Header = () => {
       <p className="max-w-2xl text-bold md:text-4xl mt-8 dark:text-amber-100  ">
         -Kushagra Saxena,Web developer.
       </p>
+      
     </div>
   );
 };
